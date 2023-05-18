@@ -10,7 +10,9 @@
 | question  | 文字列 | APIに質問を投げるための識別子   | はい      |
 
 ## リクエスト例
+```
 GET /nazoapi.php?key=your-secret-key&question=1
+```
 
 ## レスポンス
 
