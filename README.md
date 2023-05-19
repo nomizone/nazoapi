@@ -4,7 +4,7 @@
 
 
 ## エンドポイント
-`GET /nazoapi.php`
+`GET /api/nazoapi.php`
 
 ## パラメータ
 | 名前      | タイプ   | 説明                        | 必須 | 形式 |
