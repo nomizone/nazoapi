@@ -25,30 +25,23 @@ GET /nazoapi.php?key=your-secret-key&question=1
   "answer": "<回答>"
 }
 ```
-### 質問が存在しない場合、次のJSONが返されます:
-```
+### 質問が存在しない場合、次のJSONが返されます
+```json
 {
-  "answer": "質問が見つかりません"
+  "answer": "Number not found"
 }
 ```
-### キーが不正な場合、次のJSONが返されます:
-```
+### キーが不正な場合、次のJSONが返されます
+```json
 {
-  "answer": "キーが不正です"
-}
-```
-
-### エラーレスポンス
-```
-{
-  "error": "<エラーメッセージ>"
+  "answer": "Incorrect key"
 }
 ```
 
-### パラメータが不足している場合、次のJSONが返されます:
-```
+### パラメータが不足している場合やエラーの場合は次のJSONが返されます
+```json
 {
-  "error": "キーと質問番号を指定してください"
+  "error": "Please specify key and number"
 }
 
 ```
