@@ -14,7 +14,7 @@
 
 ## リクエスト例
 ```
-GET http://52.198.133.235/api/nazoapi.php?key=your-secret-key&question=1
+GET /api/nazoapi.php?key=your-secret-key&question=1
 ```
 
 ## レスポンス
